@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 40171140}
   m_Layer: 0
   m_Name: Single (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 325262394}
   m_Layer: 0
   m_Name: Single (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -479,7 +479,7 @@ GameObject:
   - component: {fileID: 933940433}
   - component: {fileID: 933940432}
   - component: {fileID: 933940434}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -634,6 +634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 5
   resistanceValue: 0.5
+  jumpSpeed: 10
 --- !u!1 &1385532202
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,7 +648,7 @@ GameObject:
   - component: {fileID: 1385532205}
   m_Layer: 0
   m_Name: Single Right
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -758,7 +759,7 @@ GameObject:
   - component: {fileID: 1926128145}
   m_Layer: 0
   m_Name: Single Left
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -872,7 +873,7 @@ GameObject:
   - component: {fileID: 1988103069}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2637,7 +2638,7 @@ GameObject:
   - component: {fileID: 2094461247}
   m_Layer: 0
   m_Name: Single
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
