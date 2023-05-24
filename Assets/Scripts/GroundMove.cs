@@ -6,6 +6,7 @@ public class GroundMove : MonoBehaviour
 {
     Vector3 moveVec;
     float runtime;
+    public float height;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,7 @@ public class GroundMove : MonoBehaviour
     void Update()
     {
         runtime += Time.deltaTime;
-        moveVec = new Vector3(0, Mathf.Sin(runtime), 0);
-        transform.position += moveVec;
+        moveVec = new Vector3(transform.position.x, Mathf.Sin(runtime) * height, 0);
+        transform.position = moveVec;
     }
 }
